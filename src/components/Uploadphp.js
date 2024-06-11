@@ -25,7 +25,7 @@ const Uploadphp = () => {
     if (data.url) {
       setUrl(data.filename);
       console.log(data);
-      router.push(`http://localhost:3000/images/${data.filename}`);
+      router.push(`https://share-screenshot.vercel.app/images/${data.filename}`);
     } else {
       console.error(data.error);
     }
