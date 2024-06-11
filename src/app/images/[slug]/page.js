@@ -66,7 +66,7 @@ const Image = ({params}) => {
               <input
                 ref={imageUrl}
                 type="text"
-                value={`http://localhost:3000/images/${params.slug}`}
+                value={`https://share-screenshot.vercel.app/images/${params.slug}`}
                 className="w-full py-2 bg-blue-100 border px-2"
                 readOnly
               />
